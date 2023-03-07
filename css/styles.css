@@ -263,18 +263,13 @@ body {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .contact-link:focus,
 .contact-link:hover {
   color: var(--style-color);
 }
-/* transition-property: background-color, transform;
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transition-delay: 0;
-} */
+
 /*==================== Hero =========================*/
 .hero {
   background-color: var(--primary-text-color);
@@ -445,8 +440,6 @@ body {
 
 .work {
   padding-bottom: 120px;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .socials {
   display: flex;
@@ -806,7 +799,6 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-/* /=================== new=========== */
 .form-checkbox {
   display: flex;
   align-items: baseline;
