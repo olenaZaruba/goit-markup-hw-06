@@ -58,6 +58,7 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
 }
+
 /* =============== COMPONENTS====================== */
 .section-title {
   font-weight: 700;
@@ -97,6 +98,7 @@ body {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  box-sizing: content-box;
 }
 
 .section {
